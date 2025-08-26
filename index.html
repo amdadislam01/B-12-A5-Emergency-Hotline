@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font  -->
@@ -20,30 +20,49 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body class="font-Hind Madurai">
+  </head>
+  <body class="font-Hind Madurai">
     <!-- Navbar Section -->
-    <nav class="flex justify-between items-center px-12 py-4 bg-white shadow">
+    <nav
+      class="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-4 bg-white shadow gap-4 md:gap-0"
+    >
       <div class="flex items-center gap-2">
-        <img src="assets/logo.png" alt="Logo" class="w-[50px] h-[50px]" />
-        <h1 class="font-extrabold text-[#006747] text-2xl w-12">
+        <img
+          src="assets/logo.png"
+          alt="Logo"
+          class="w-10 h-10 md:w-[50px] md:h-[50px]"
+        />
+        <h1 class="font-extrabold text-[#006747] text-lg md:text-2xl">
           Emergency Service
         </h1>
       </div>
-      <div class="flex items-center gap-12 text-gray-700">
+
+ 
+      <div
+        class="flex flex-wrap justify-center md:justify-end items-center gap-4 md:gap-12 text-gray-700"
+      >
+
         <div
-          class="flex items-center gap-2 bg-[#ecfff0] px-6 py-3 rounded-full"
+          class="flex items-center gap-2 bg-[#ecfff0] px-4 md:px-6 py-2 md:py-3 rounded-full"
         >
           <span id="heartCount" class="font-bold">0</span>
           <img src="assets/heart.png" class="w-5 h-5" alt="heart" />
         </div>
-        <div class="flex items-center gap-2  bg-[#ecfff0] px-6 py-3 rounded-full">
+
+
+        <div
+          class="flex items-center gap-2 bg-[#ecfff0] px-4 md:px-6 py-2 md:py-3 rounded-full"
+        >
           <span id="coinCount" class="font-bold">100</span>
           <img src="assets/coin.png" class="w-5 h-5" alt="coin" />
         </div>
-        <div class="flex items-center gap-2 bg-[#00A63E] py-3 px-6 rounded-full">
+
+
+        <div
+          class="flex items-center gap-2 bg-[#00A63E] px-4 md:px-6 py-2 md:py-3 rounded-full"
+        >
           <span id="copyCount" class="font-bold text-white">0</span>
-          <span class="text-gl font-bold text-white">Copy</span>
+          <span class="text-sm md:text-base font-bold text-white">Copy</span>
         </div>
       </div>
     </nav>
@@ -97,12 +116,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -133,12 +152,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold  "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -169,12 +188,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -205,12 +224,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -241,12 +260,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -277,12 +296,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -313,12 +332,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -328,11 +347,7 @@
           <div class="card bg-white p-4 rounded-xl shadow-md w-90">
             <div class="flex justify-between items-start items-center">
               <div class="bg-[#FFE3E2] rounded-lg p-3">
-                <img
-                  src="assets/brac.png"
-                  alt="Emergency"
-                  class="w-12 h-12"
-                />
+                <img src="assets/brac.png" alt="Emergency" class="w-12 h-12" />
               </div>
               <button class="likeBtn">
                 <i class="fa-regular fa-heart"></i>
@@ -349,12 +364,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -385,12 +400,12 @@
             </div>
             <div class="flex gap-2 mt-4">
               <button
-                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900  hover:text-white font-bold "
+                class="copyBtn flex items-center justify-center gap-2 flex-1 border rounded-lg py-2 text-gray-600 hover:bg-gray-900 hover:text-white font-bold"
               >
                 <img src="assets/copy.png" class="w-4 h-4" /> Copy
               </button>
               <button
-                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300  font-bold  hover:text-black"
+                class="callBtn flex items-center justify-center gap-2 flex-1 bg-green-600 text-white rounded-lg py-2 hover:bg-gray-300 font-bold hover:text-black"
               >
                 <img src="assets/call.png" class="w-4 h-4" /> Call
               </button>
@@ -416,6 +431,6 @@
       </section>
     </main>
 
-     <script src="Js/app.js"></script>
-</body>
+    <script src="Js/app.js"></script>
+  </body>
 </html>

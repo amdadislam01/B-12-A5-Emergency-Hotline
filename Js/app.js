@@ -12,9 +12,32 @@ let copies = 0;
 cardContainer.addEventListener("click", (e) => {
   const target = e.target;
 
-  const likeBtn = target.closest(".likeBtn");
-  const copyBtn = target.closest(".copyBtn");
-  const callBtn = target.closest(".callBtn");
+  // Like Button
+  const likeBtn = target.className.includes("likeBtn")
+    ? target
+    : target.parentNode.className.includes("likeBtn")
+    ? target.parentNode
+    : target.parentNode.parentNode.className.includes("likeBtn")
+    ? target.parentNode.parentNode
+    : null;
+
+  // Copy Button
+  const copyBtn = target.className.includes("copyBtn")
+    ? target
+    : target.parentNode.className.includes("copyBtn")
+    ? target.parentNode
+    : target.parentNode.parentNode.className.includes("copyBtn")
+    ? target.parentNode.parentNode
+    : null;
+
+  // Call Button
+  const callBtn = target.className.includes("callBtn")
+    ? target
+    : target.parentNode.className.includes("callBtn")
+    ? target.parentNode
+    : target.parentNode.parentNode.className.includes("callBtn")
+    ? target.parentNode.parentNode
+    : null;
 
   // Like
   if (likeBtn) {
